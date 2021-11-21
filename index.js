@@ -29,3 +29,5 @@ while(keep_looping < 7){
     });
     console.log("keep_looping is " + keep_looping + "\n");
 }
+
+document.getElementById("numbers").innerHTML = _array
