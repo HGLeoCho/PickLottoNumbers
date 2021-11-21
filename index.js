@@ -24,10 +24,13 @@ while(keep_looping < 7){
             }
         }
     }
-    _array.forEach(function (item, index) {
-        console.log(item, index);
-    });
-    console.log("keep_looping is " + keep_looping + "\n");
+//    _array.forEach(function (item, index) {
+//        console.log(item, index);
+//    });
+//    console.log("keep_looping is " + keep_looping + "\n");
 }
-
-document.getElementById("numbers").innerHTML = _array
+text_result = "";
+_array.forEach(function (item, index) {
+    text_result += item + '<br>';
+});
+document.getElementById("numbers").innerHTML = text_result;
