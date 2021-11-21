@@ -5,4 +5,4 @@ duplicated numbers are not allowed
 for my lotto addiction LOL
 
 
-[Link](https://github.com/HGLeoCho/pick7numbers)
+[Link](https://HGLeoCho.github.io/pick7numbers)
