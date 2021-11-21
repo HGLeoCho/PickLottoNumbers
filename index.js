@@ -31,6 +31,6 @@ while(keep_looping < 7){
 }
 text_result = "";
 _array.forEach(function (item, index) {
-    text_result += item + '<br>';
+    text_result += '<tr><td>' + item + '</td></tr>';
 });
 document.getElementById("numbers").innerHTML = text_result;
