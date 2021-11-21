@@ -5,6 +5,6 @@ body {
 p {
     color: white;
     text-align: center;
-    font-family: Lucida Handwriting;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-size: 50px;
 }
