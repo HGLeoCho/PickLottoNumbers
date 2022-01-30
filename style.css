@@ -2,6 +2,10 @@ body {
     background-color: #3B3B3B;
 }
 
+select {
+  text-align: center;
+}
+
 table, th, td {
     color: white;
     text-align: center;
