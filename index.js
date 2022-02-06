@@ -1,3 +1,5 @@
+// function def
+
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
@@ -21,7 +23,7 @@ function pick_numbers(pick_num, max_num){
 			index += 1;
 		}
 	}
-	return _array;
+	return _array.sort(function(a, b){ return a - b;});
 }
 
 function build_html(_array = []){
@@ -33,6 +35,9 @@ function build_html(_array = []){
 	}
 	document.getElementById("numbers").innerHTML = text_result;
 }
+
+
+// main 
 
 var selection = document.getElementById('selection');
 
