@@ -23,7 +23,12 @@ function pick_numbers(pick_num, max_num){
 			index += 1;
 		}
 	}
-	return _array.sort(function(a, b){ return a - b;});
+	//sort array
+	_array = _array.sort(function(a, b){
+		return a - b;
+	});
+
+	return _array;
 }
 
 function build_html(_array = []){
